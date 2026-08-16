@@ -1,0 +1,2 @@
+# GitHub Pages ignores dotfiles by default unless .nojekyll is present.
+# This file disables Jekyll processing so static assets (incl. 404.html) deploy as-is.

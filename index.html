@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Ascend helps you plan, execute, learn, and grow in one connected system — tasks, goals, projects, and progress that move forward together." />
+    <meta name="theme-color" content="#0B0E1A" />
+    <title>Ascend — Plan. Execute. Learn. Grow.</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ascend" />
+    <meta property="og:title" content="Ascend — Plan. Execute. Learn. Grow." />
+    <meta property="og:description" content="Plan, execute, learn, and grow in one connected system." />
+    <meta property="og:image" content="./og-image.svg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Ascend — Plan. Execute. Learn. Grow." />
+    <meta name="twitter:description" content="Plan, execute, learn, and grow in one connected system." />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <script>
+      ;(function () {
+        try {
+          var stored = localStorage.getItem('ascend-landing-theme')
+          var theme = stored || 'dark'
+          if (!stored) {
+            var prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches
+            if (prefersLight) theme = 'light'
+          }
+          document.documentElement.setAttribute('data-theme', theme)
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'dark')
+        }
+      })()
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="./assets/index-iRhNZkL0.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/vendor-react-BcFl-vD1.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-CQWnu80i.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

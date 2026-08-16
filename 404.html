@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting…</title>
+    <script>
+      // SPA fallback for GitHub Pages: unknown routes redirect to the app entry.
+      // The landing page has no client-side routing (single page), so this guards
+      // against hard-refresh 404s if a hash/anchor path is ever requested directly.
+      var segment = window.location.pathname.replace(/\/[^/]*$/, '/')
+      window.location.replace(segment || './')
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="./">Ascend</a>…</p>
+  </body>
+</html>
